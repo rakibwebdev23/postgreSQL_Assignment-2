@@ -42,9 +42,9 @@ PostgreSQL-এ অ্যাগ্রিগেট ফাংশনগুলো (Ag
 
 সবচেয়ে সাধারণ ফাংশনগুলো হলো: COUNT(), SUM(), এবং AVG()।
 
-SELECT COUNT(*) FROM employees;
-SELECT SUM(salary) FROM employees;
-SELECT AVG(salary) FROM employees; aita sundor kore readme file kore dao serial wise sajaba
+#SELECT COUNT(*) FROM employees;
+#SELECT SUM(salary) FROM employees;
+#SELECT AVG(salary) FROM employees;
 
 -----------------------------------------------
 
