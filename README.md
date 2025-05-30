@@ -23,7 +23,6 @@ PostgreSQL-এ (Schema) হলো একটি লজিক্যাল স্�
 
 উদাহরণ:
 
-```sql
 name VARCHAR(50)
 code CHAR(10)
 
@@ -35,7 +34,6 @@ UPDATE কমান্ড দিয়ে একটি টেবিলের নি
 
 উদাহরণ:
 
-```sql
 UPDATE students SET age = 20 WHERE student_id = 1;
 
 ### 5. How can you calculate aggregate functions like COUNT(), SUM(), and AVG() in PostgreSQL?
@@ -44,7 +42,6 @@ PostgreSQL-এ অ্যাগ্রিগেট ফাংশনগুলো (Ag
 
 সবচেয়ে সাধারণ ফাংশনগুলো হলো: COUNT(), SUM(), এবং AVG()।
 
-```sql
 SELECT COUNT(*) FROM employees;
 SELECT SUM(salary) FROM employees;
 SELECT AVG(salary) FROM employees; aita sundor kore readme file kore dao serial wise sajaba
